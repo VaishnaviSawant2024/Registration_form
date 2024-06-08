@@ -1,0 +1,59 @@
+ h2{
+            text-align: center;
+            border-bottom: 2px solid green;
+        }
+        body{
+            font-size: 16px;
+            background: #f9f9f9;
+        }
+         form{
+            width:300px;
+            background: #fff;
+            padding: 15px 40px 40px;
+            margin:50px auto 0;
+            border: 2px solid #ccc;
+            border-radius: 5px;
+         }
+         input,select{
+            border:#ccc;
+            padding:10px;
+            width:100%;
+            box-sizing: border-box;
+            border-radius: 2px;
+        
+         }
+         label{
+            display: block;
+            margin-bottom: 6PX;
+         }
+        div{ 
+           padding-bottom: 12px;  
+          
+        }
+        div input{
+            border: 1px solid #ccc;
+            border-radius: 2px;
+            padding: 8px 10px 4px;
+        }
+        .form-inline{
+            border: 1px solid #ccc;
+            border-radius: 2px;
+            padding: 8px 10px 4px;
+        }
+        .form-inline label,.form-inline input{
+            display: inline-block;
+            width: auto;
+            padding-right: 15px;
+        }
+        input[type="submit"]{
+            font-size: 20px;
+            background: #4ccb17;
+            border-color: black;
+            box-shadow: 0 3px 0 grey;
+            color: white;
+            margin-top: 10px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover{
+           background: #228b22;
+        }
